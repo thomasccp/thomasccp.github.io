@@ -1,6 +1,7 @@
 ---
 layout: page
 ---
+{% include JB/setup %}
 
 ### Life and technologies
 
