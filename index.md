@@ -1,11 +1,8 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
 ---
-{% include JB/setup %}
 
-## Life and technologies
+### Life and technologies
 
 <ul class="posts">
   {% for post in site.posts %}
