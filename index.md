@@ -1,9 +1,9 @@
 ---
 layout: page
+title: Life and technologies
 ---
 {% include JB/setup %}
 
-### Life and technologies
 
 <ul class="posts">
   {% for post in site.posts %}
