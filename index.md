@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Life and technologies
+title: Life and technology
 ---
 {% include JB/setup %}
 
