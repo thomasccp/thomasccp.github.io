@@ -37,7 +37,7 @@ Disadvantages
 * Established links to world-class universities
 * Experience
 
-Tech City is still very young (established in 2010). Many notable companies are still skeptical about moving into this area. For example, from [a news on BBC](http://www.bbc.co.uk/news/technology-15088359){:target="_blank"}:
+Tech City is still very young (established in 2010). Many notable companies are still skeptical about moving into this area and retain their main offices in somewhere else. For example, from [a news on BBC](http://www.bbc.co.uk/news/technology-15088359){:target="_blank"}:
 
 > Google said that the building, in Bonhill Street, would host "a range of activities, such as speaker series, hackathons, training workshops and product demonstrations" in addition to providing workspace for new companies.
 
