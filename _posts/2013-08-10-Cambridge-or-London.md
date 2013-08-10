@@ -37,13 +37,13 @@ Disadvantages
 * Established links to world-class universities
 * Experience
 
-Tech City is still very young (established in 2010). Many notable companies are still skeptical about moving into this area. For example, from [a news on BBC] (http://www.bbc.co.uk/news/technology-15088359):
+Tech City is still very young (established in 2010). Many notable companies are still skeptical about moving into this area. For example, from [a news on BBC](http://www.bbc.co.uk/news/technology-15088359){:target="_blank"}:
 
 > Google said that the building, in Bonhill Street, would host "a range of activities, such as speaker series, hackathons, training workshops and product demonstrations" in addition to providing workspace for new companies.
 
 To be a successful technology hub, Tech City needs more time. Right now my impression is that it is not much about R&D. It needs more science.
 
-[One more article from BBC] (http://www.bbc.co.uk/news/technology-17998596)
+[One more article from BBC](http://www.bbc.co.uk/news/technology-17998596){:target="_blank"}
 
 > So, a few reasons why Cambridge, rather than London's Tech City, may offer the UK's best chance of generating world-class technology companies. What London does have is easier access to the venture capital firms which seem so reluctant to travel outside the capital. What it lacks is strong links with a world-class university, and a powerful network of people with a track record in both science and business, willing to pass on lessons to new companies.
 
