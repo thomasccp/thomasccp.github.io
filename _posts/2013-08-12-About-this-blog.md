@@ -63,15 +63,15 @@ To write a new post:
 
 If you want to see your site locally, install Jekyll (prerequisite: Ruby and Ruby Gems installed)
 
-	```
-	gem install jekyll
+```
+gem install jekyll
 
-	cd USERNAME.github.com
-	
-	jekyll serve
-	```
+cd USERNAME.github.com
+
+jekyll serve
 
 Browse to http://localhost:4000
+```
 
 Useful links:
 
