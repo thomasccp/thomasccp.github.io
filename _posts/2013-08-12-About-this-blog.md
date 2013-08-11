@@ -62,6 +62,7 @@ To write a new post:
 * Go to USERNAME.github.com and see the results.
 
 If you want to see your site locally, install Jekyll (prerequisite: Ruby and Ruby Gems installed)
+
 	```
 	gem install jekyll
 
