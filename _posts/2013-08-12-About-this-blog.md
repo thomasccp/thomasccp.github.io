@@ -5,13 +5,13 @@ categories: Technology
 tags: Jekyll, GitHub
 ---
 
-A while ago I decided to add a blog to my personal website. I think it would be a good place to share my technical notes, and even some little things about my boring geek life.
+A while ago I decided to add a blog to my personal website. I think it will be a good place to share my technical notes, and even some little things about my boring geek life.
 
-I used to set up a blog system before, using PhD+MySQL. This was too clumsy, let embrace minimalism!
+I used to set up a blog system before, using PhD+MySQL. This was too clumsy, let's embrace minimalism!
 
 A few requirements:
 
-* Lightweight - I am a lazy blogger, there won't be many posts.
+* Lightweight - I am a lazy blogger so there won't be many posts.
 * Portable - Minimal effort to bring the stuff around. Remember MySpace and Xanga?
 * Easy - I just need to jot down some codes, write a few lines. Don't increase my burden of coding...
 
