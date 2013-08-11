@@ -34,26 +34,29 @@ To write a new post:
 1. Create a text file under directory `_posts`, name it in the following format
 	year-month-date-title.md
 2. Include a YAML front matter block which tells Jekyll that it is a special file. [Details](http://jekyllrb.com/docs/frontmatter/)
-	---
-	layout: post
-	title: Blogging Like a Hacker
-	---
+		---
+		layout: post
+		title: Blogging Like a Hacker
+		---
 3. Type in plaintext, or enhance it using `Markdown`. [Details](http://daringfireball.net/projects/markdown/syntax#link)
 4. Publish your work!
-	git add .
-	git commit -m "Add new content"
-	git push origin master
+		git add .
+		git commit -m "Add new content"
+		git push origin master
 5. Go to USERNAME.github.com and see the results.
 
 If you want to see your site locally, install Jekyll (prerequisite: Ruby and Ruby Gems installed)
-	gem install jekyll
-	cd USERNAME.github.com
-	jekyll serve
+		gem install jekyll
+		cd USERNAME.github.com
+		jekyll serve
 
 Browse to http://localhost:4000
 
 Useful links:
+
 [Jekyll quick start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+
 [Jekyll](http://jekyllrb.com/)
+
 [Markdown](http://daringfireball.net/projects/markdown/)
 
