@@ -25,30 +25,38 @@ Moreover, Jekyll is the engine behind GitHub pages, which means I can host my bl
 So, here we go. Just two steps
 1. Set up a repository on GitHub, name it USERNAME.github.com
 2. Install Jekyll-Bootstrap
-		```git clone https://github.com/plusjade/jekyll-bootstrap.git USERNAME.github.com
-		```cd USERNAME.github.com
-		```git remote set-url origin git@github.com:USERNAME/USERNAME.github.com.git
-		```git push origin master
+	```
+	git clone https://github.com/plusjade/jekyll-bootstrap.git USERNAME.github.com
+	cd USERNAME.github.com
+	git remote set-url origin git@github.com:USERNAME/USERNAME.github.com.git
+	git push origin master
+	```
 
 To write a new post:
 1. Create a text file under directory `_posts`, name it in the following format
-		```year-month-date-title.md
+	```year-month-date-title.md```
 2. Include a YAML front matter block which tells Jekyll that it is a special file. [Details](http://jekyllrb.com/docs/frontmatter/)
-		```---
-		```layout: post
-		```title: Blogging Like a Hacker
-		```---
+	```
+	---
+	layout: post
+	title: Blogging Like a Hacker
+	---
+	```
 3. Type in plaintext, or enhance it using `Markdown`. [Details](http://daringfireball.net/projects/markdown/syntax#link)
 4. Publish your work!
-		```git add .
-		```git commit -m "Add new content"
-		```git push origin master
+	```
+	git add .
+	git commit -m "Add new content"
+	git push origin master
+	```
 5. Go to USERNAME.github.com and see the results.
 
 If you want to see your site locally, install Jekyll (prerequisite: Ruby and Ruby Gems installed)
-		```gem install jekyll
-		```cd USERNAME.github.com
-		```jekyll serve
+	```
+	gem install jekyll
+	cd USERNAME.github.com
+	jekyll serve
+	```
 
 Browse to http://localhost:4000
 
