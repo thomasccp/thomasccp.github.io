@@ -41,7 +41,7 @@ To write a new post:
 
 * Create a text file under directory `_posts`, name it in the following format
 	```year-month-date-title.md```
-*Include a YAML front matter block which tells Jekyll that it is a special file. [Details](http://jekyllrb.com/docs/frontmatter/)
+* Include a YAML front matter block which tells Jekyll that it is a special file. [Details](http://jekyllrb.com/docs/frontmatter/)
 	```
 	---
 	
