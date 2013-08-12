@@ -27,7 +27,7 @@ So, here we go. Just two steps
 
 * Set up a repository on GitHub, name it USERNAME.github.com
 * Install Jekyll-Bootstrap
-	```
+```
 	git clone https://github.com/plusjade/jekyll-bootstrap.git USERNAME.github.com
 
 	cd USERNAME.github.com
@@ -35,13 +35,13 @@ So, here we go. Just two steps
 	git remote set-url origin git@github.com:USERNAME/USERNAME.github.com.git
 
 	git push origin master
-	```
+```
 
 To write a new post:
 
 * Create a text file under directory `_posts`, name it `year-month-date-title.md`
 * Include a YAML front matter block which tells Jekyll that it is a special file. [Details](http://jekyllrb.com/docs/frontmatter/)
-	```
+```
 	---
 	
 	layout: post
@@ -49,16 +49,16 @@ To write a new post:
 	title: Blogging Like a Hacker
 	
 	---
-	```
+```
 * Type in plaintext, or enhance it using `Markdown`. [Details](http://daringfireball.net/projects/markdown/syntax#link)
 * Publish your work!
-	```
+```
 	git add .
 
 	git commit -m "Add new content"
 	
 	git push origin master
-	```
+```
 * Go to USERNAME.github.com and see the results.
 
 If you want to see your site locally, install Jekyll (prerequisite: Ruby and Ruby Gems installed)
