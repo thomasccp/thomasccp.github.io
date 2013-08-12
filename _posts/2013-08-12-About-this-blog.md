@@ -7,7 +7,7 @@ tags: Jekyll, GitHub
 
 A while ago I decided to add a blog to my personal website. I think it will be a good place to share my technical notes, and even some little things about my boring geek life.
 
-I used to set up a blog system before, using PhD+MySQL. This was too clumsy, let's embrace minimalism!
+I used to set up a blog system before, using PHP+MySQL. This was too clumsy, let's embrace minimalism!
 
 A few requirements:
 
