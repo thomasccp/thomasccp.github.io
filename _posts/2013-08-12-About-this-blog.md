@@ -13,7 +13,7 @@ A few requirements:
 
 * Lightweight - I am a lazy blogger so there won't be many posts.
 * Portable - Minimal effort to bring the stuff around. Remember MySpace and Xanga?
-* Easy - I just need to jot down some codes, write a few lines. Don't increase my burden of coding...
+* Easy - I just need to jot down some codes and write a few lines. Don't increase my burden of coding...
 
 After a few trials, I found `Jekyll` quite enjoyable. Neither database nor coding is necessary. I just need to write my post in plain text. If I use a lightweight markup language called `Markdown` (?!), I can even produce some decent pages.
 
