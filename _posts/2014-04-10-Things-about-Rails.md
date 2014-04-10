@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Projects
+title: Things about Rails
 categories: Technology
 tags: Ruby on Rails
 ---
