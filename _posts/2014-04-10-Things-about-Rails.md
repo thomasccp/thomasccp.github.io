@@ -1,4 +1,11 @@
-Just some very brief and rough notes taken from my recent Rails experience. Stuffs include:
+---
+layout: post
+title: Projects
+categories: Technology
+tags: Ruby on Rails
+---
+
+Just some very brief and rough notes taken from my recent Ruby on Rails experience. Stuffs include:
 
 * How to set up a Rails production server
 * How to set up a development environment
