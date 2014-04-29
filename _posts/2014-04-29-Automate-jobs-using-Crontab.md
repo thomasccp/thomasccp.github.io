@@ -9,10 +9,17 @@ tags: Cron
 	
 		crontab [-u username] [-e|-l|-r]
 
-	Examples:
-	* Edit: crontab -e
-	* Display: crontab -l
-	* Remove: crontab -r
+	* Edit: 
+		
+		crontab -e
+
+	* Display: 
+		
+		crontab -l
+
+	* Remove: 
+	
+		crontab -r
 
 2. Syntax of crontab file
 
@@ -22,18 +29,15 @@ tags: Cron
 	
 	* ,: time intervals
 
-	Example: Execute the command at 3am and 6am everyday
-		0 3,6 * * * command
+		0 3,6 * * * command # Runs the command at 3am and 6am everyday
 
 	* -: time range
 
-	Example: Execute the command at the 20th minutes between 8am and 11am
-		20 8-11 * * * command
+		20 8-11 * * * command # Runs the command at the 20th minutes between 8am and 11am
 
 	* /n: every n time instance
 
-	Example: Execute the command every 15 minutes
-		*/15 * * * * command
+		*/15 * * * * command # Runs the command every 15 minutes
 
 	More examples:
 
