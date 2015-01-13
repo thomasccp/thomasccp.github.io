@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="Home Page of Thomas C. P. Chau" />
+		<meta name="keywords" content="Thomas Chun Pong Chau, Thomas C. P. Chau, Thomas Chau, &#21608;&#20426;&#37030;, Custom Computing, Department of Computing, Imperial College London, Reconfigurable technology, field programmable gate array, FPGA, structured ASIC, SASIC, Maxeler, Altera, Xilinx, sequential Monte Carlo, SMC, proximity query, PQ" />
+		<meta name="author" content="Thomas Chun Pong Chau" />
+		<link rel="stylesheet" type="text/css" href="cpchau.css" media="screen,projection" />
+		<title>Thomas C. P. Chau</title>
+		<script type="text/javascript">
+
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-19664380-4']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+			 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			 })();
+
+		 </script>
+	 </head>
+
+	 <body>
+		 <div id="wrap">
+
+			 <div id="header">
+				 <h1><a href="index.html">Thomas Chun Pong CHAU</a></h1>
+				 <a href="index.html">About Me</a> &middot; 
+				 <a href="publications.html">Publications</a> &middot; 
+				 <a href="projects.html">Projects</a> &middot; 
+				 <a href="resources.html">Resources</a> &middot; 
+				 <a href="links.html">Links</a> &middot; 
+				 <a href="blog.html">Blog</a>
+			 </div>
+
+			 <img id="frontphoto" src="img/header.jpg" width="760" height="272" alt="London skyline" />
+
+			 <div id="leftside">
+				 <h2 class="hide">Menu:</h2>
+
+				 <ul class="avmenu">
+					 <li><a href="index.html">About Me</a></li>
+					 <li><a href="publications.html">Publications</a></li>
+					 <li><a href="projects.html">Projects</a></li>
+					 <ul>
+						 <li><a class="current" href="projects_smc.html">Particle Filter / SMC</a></li>
+						 <li><a href="projects_pq.html">Proximity Query</a></li>
+						 <li><a href="projects_sasic.html">Structured ASIC</a></li>
+						 <li><a href="projects_others.html">Others</a></li>
+					 </ul>
+					 </li>
+					 <li><a href="resources.html">Resources</a></li>
+					 <li><a href="links.html">Links</a>
+					 <li><a href="blog.html">Blog</a>
+				 </ul>
+			 </div>
+
+			 <div id="contentwide">
+				 <p>&nbsp;</p>
+
+				 <h3>Heterogeneous Dynamic Reconfigurable Platform for Adaptive Particle Filters / Sequential Monte Carlo Methods (SMC) in Real-time Applications</h3>
+				 <p align="justify">
+				 We are developing a design flow, <a href="http://cc.doc.ic.ac.uk/projects/smcgen" target="_blank">SMCGen</a>, for generating efficient implementation of reconfigurable SMC designs. 
+				 Users can use it to develop efficient multiple-FPGA SMC applications without any knowledge of FPGA/reconfigurable computing. 
+				 The design flow consists of a parametrisable SMC computation engine, and a software template which enables efficient mapping of a variety of SMC designs to FPGAs.
+				 The computation engine consists of multiple FPGAs and CPUs, and it captures the generic control structure shared among all SMC applications.
+				 </p>
+				 
+				 <p align="justify">
+				 <a href="http://cc.doc.ic.ac.uk/projects/smcgen" target="_blank">SMCGen project website</a>
+				 </p>
+
+				 <p align="justify">
+				 We also propose a method to adapt the number of particles dynamically and utilise the run-time reconfigurability of the FPGA for reduced power and energy consumption. 
+				 It shows that the proposed adaptive particle filter can reduce up to 99% of computation time. 
+				 Using run-time reconfiguration, we can substantially reduce power and energy consumption.
+				 </p>
+
+				 <p align="justify">
+				 <img src="img/smc_system.png" width="460" height="494">
+				 </p>
+
+				 <p>References:</p>
+				 <p align="justify">Thomas C.P. Chau, Maciej Kurek, James Stanley Targett, Jake Humphrey, Georgios Skouroupathis, Alison Eele, Jan Maciejowski, Benjamin Cope, Kathryn Cobden, Philip Leong, Peter Y.K. Cheung and Wayne Luk, &quot;SMCGen: Generating Reconfigurable Design for Sequential Monte Carlo Applications,&quot; in Proc. International Symposium on Field-Programmable Custom Computing Machines (FCCM), pp. 141-148, 2014. <a href="http://www.doc.ic.ac.uk/~cpc10/publications/14/fccm14tc.pdf" target="_blank">[pdf]</a></p>
+				 <p align="justify">Maciej Kurek, Tobias Becker, Thomas C.P. Chau and Wayne Luk, &quot;Automating Optimization of Reconfigurable Designs,&quot; in Proc. International Symposium on Field-Programmable Custom Computing Machines (FCCM), pp. 201-213, 2014. <a href="http://www.doc.ic.ac.uk/~cpc10/publications/14/fccm14mk.pdf" target="_blank">[pdf]</a></p>
+				 <p align="justify">Thomas C.P. Chau, Xinyu Niu, Alison Eele, Wayne Luk, Peter Y.K. Cheung and Jan Maciejowski, &quot;Mapping Adaptive Particle Filters to Heterogeneous Reconfigurable Systems,&quot; ACM Transactions on Reconfigurable Technology and Systems, accepted.</p>
+				 <p align="justify">Thomas C.P. Chau, Xinyu Niu, Alison Eele, Wayne Luk, Peter Y.K. Cheung and Jan Maciejowski, &quot;Heterogeneous Reconfigurable System for Adaptive Particle Filters in Real-Time Applications,&quot; in Proc. International Symposium on Applied Reconfigurable Computing (ARC), pp. 1-12, 2013. <a href="http://www.doc.ic.ac.uk/~cpc10/publications/13/arc13tc.pdf" target="_blank">[pdf]</a></p>
+				 <p align="justify">Thomas C.P. Chau, Wayne Luk, Peter Y.K. Cheung, Alison Eele and Jan Maciejowski, &quot;Adaptive Sequential Monte Carlo Approach for Real-time Applications,&quot; in Proc. International Conference on Field Programmable Logic and Applications (FPL), pp. 527-530, 2012. <a href="http://www.doc.ic.ac.uk/~cpc10/publications/12/fpl12tc.pdf" target="_blank">[pdf]</a></p>
+
+				 <h3>Related Applications</h3>
+				 <p align="justify">
+				 <strong>Air Traffic Management: </strong>This work is about the use of a parallelised Model Predictive Control, Sequential Monte Carlo algorithm for solving the problem of conflict resolution and aircraft trajectory control in air traffic management specifically around the terminal manoeuvring area of an airport. 
+				 The target problem is nonlinear, highly constrained, non-convex and uses a single decision-maker with multiple aircraft.<br />
+				 </p>
+				 <p align="justify">
+				 <img src="img/gnc13.png" width="417" height="332">
+				 </p>
+				 <p>References:</p>
+				 <p align="justify">Thomas C.P. Chau, James Targett, Marlon Wijeyasinghe, Wayne Luk, Peter Y.K. Cheung, Benjamin Cope, Alison Eele and Jan Maciejowski, &quot;Accelerating Sequential Monte Carlo Method for Real-time Air Traffic Management,&quot; ACM SIGARCH Computer Architecture News, accepted.</p>
+				 <p align="justify">Thomas C.P. Chau, James Targett, Marlon Wijeyasinghe, Wayne Luk, Peter Y.K. Cheung, Benjamin Cope, Alison Eele and Jan Maciejowski, &quot;Accelerating Sequential Monte Carlo Method for Real-time Air Traffic Management,&quot; in Proc. International Symposium on Highly Efficient Accelerators and Reconfigurable Technologies (HEART), 2013. Best Paper Award Candidate. <a href="http://www.doc.ic.ac.uk/~cpc10/publications/13/heart13tc.pdf" target="_blank">[pdf]</a></p>
+				 <p align="justify">Alison Eele, Jan Maciejowski, Thomas C.P. Chau and Wayne Luk, &quot;Parallelisation of Sequential Monte Carlo for Real-Time Control in Air Traffic Management,&quot; in Proc. IEEE Conference on Decision and Control, 2013. <a href="http://www.doc.ic.ac.uk/~cpc10/publications/13/cdc13ae.pdf" target="_blank">[pdf]</a></p>
+				 <p align="justify">Alison Eele, Jan Maciejowski, Thomas C.P. Chau and Wayne Luk, &quot;Control of Aircraft in the Terminal Manoeuvring Area using Parallelised Sequential Monte Carlo,&quot; in Proc. AIAA Conference on Guidance, Navigation, and Control, 2013. <a href="http://www.doc.ic.ac.uk/~cpc10/publications/13/gnc13ae.pdf" target="_blank">[pdf]</a></p>
+				 
+				 <p>
+				 <strong>Mobile Robot Localisation</strong>
+				 </p>
+				 <p align="justify">
+				 <img src="img/mcl.png" width="500" height="200">
+				 </p>
+
+
+			 </div>
+
+			 <div id="footer">
+				 <p><span>&copy; 2015 Thomas Chun Pong CHAU</span><br />
+				 Original design by <a href="http://andreasviklund.com/">Andreas Viklund</a></p>
+			 </div>
+
+		 </div>
+	 </body>
+ </html>
